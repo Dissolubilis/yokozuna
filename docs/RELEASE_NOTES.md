@@ -20,6 +20,9 @@ Yokozuna Release Notes
   have one index associated with it but it doesn't have to have the
   same name and more than one bucket can use the same index.
 
+* [19][], [133][] - Add map-reduce support.  Now Yokozuna queries can
+  be used as input to a map-reduce job.
+
 ### Performance ###
 
 * [48][] - Send delete & update in the same request.  In order to
@@ -71,6 +74,7 @@ Yokozuna Release Notes
   second is to add a `yz_index` bucket property with the name of the
   index.  See the README for an example.
 
+[19]: https://github.com/basho/yokozuna/issues/19
 [48]: https://github.com/basho/yokozuna/pull/48
 [57]: https://github.com/basho/yokozuna/pull/57
 [72]: https://github.com/basho/yokozuna/issues/72
@@ -88,6 +92,7 @@ Yokozuna Release Notes
 [124]: https://github.com/basho/yokozuna/issues/124
 [127]: https://github.com/basho/yokozuna/pull/127
 [128]: https://github.com/basho/yokozuna/pull/128
+[133]: https://github.com/basho/yokozuna/pull/133
 [s430]: http://lucene.apache.org/solr/4_3_0/changes/Changes.html
 
 0.6.0
